@@ -1,3 +1,23 @@
-body {
-    background-color: grey;
+:root {
+ --link-color: #fff;
 }
+    
+.global-header{
+    background-color: #333;
+}
+
+.global-header .main-navigation a:link,
+.global-header .main-navigation a:visited {
+    color: var(--link-color);
+}
+
+.global-header .main-navigation a:hover {
+  color:
+ #FF6c00;   
+}
+
+.global-header .main-navigation a:active {
+    color: #ff0000;     
+  }
+
+  
