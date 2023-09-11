@@ -30,3 +30,24 @@
     font-family: var(--heading-font-family);
     font-weight: 700;
   }
+
+  .button {
+    cursor: pointer;
+  }
+
+  .phone-number {
+    color: var(--link-color);
+    font-family: var(--text-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+  }
+
+  .phone-number: hover{
+    color: var(--link-hover-color);
+  
+  }
+
+  
