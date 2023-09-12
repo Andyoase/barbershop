@@ -1,6 +1,8 @@
 :root {
  --link-color: #fff;
  --heading-font-family:'Raleway', sans-serif;
+ --text-font-family: "Open Sans", sans-serif;
+ --link-hover-color: #ff6c00;
 }
     
 .global-header{
@@ -13,8 +15,7 @@
 }
 
 .global-header .main-navigation a:hover {
-  color:
- #FF6c00;   
+  color: var(--link-hover-colorcolor);
 }
 
 .global-header .main-navigation a:active {
@@ -50,4 +51,22 @@
   
   }
 
-  
+  .button {
+    color: var(--link-color);
+    font-family: var(--text-font-family);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #ff6c00;
+    border-radius: 25px;
+    padding: 12px 25px ;
+  }
+
+  .button:hover {
+    background-color: #fff;
+    color:#ff6c00;
+    border: 1px solid #fff;
+  }
