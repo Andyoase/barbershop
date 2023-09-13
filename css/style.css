@@ -52,7 +52,7 @@
     text-decoration: none;
   }
 
-  .phone-number: hover{
+  .phone-number:hover{
     color: var(--link-hover-color);
   
   }
