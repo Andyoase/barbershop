@@ -152,6 +152,13 @@
     letter-spacing: 0.02em;
     color: #9DA4BD ;
     list-style: none;
+    flex-grow: 1;
+  }
+
+  .prices-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
   }
 
   .prices-list li .prices-dash {
@@ -159,4 +166,3 @@
     background: #9DA4BD;
   }
 
-  
