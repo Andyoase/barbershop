@@ -108,14 +108,17 @@
     background-color: #111319;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .section {
     padding: 130px 55px;
-   
   }
 
   .heading-with-dash {
     display: flex;
     align-items: center;
     color: #9DA4BD ;
+    margin-bottom: 20px;
   }
 
   .heading-with-dash h3 {
@@ -140,11 +143,12 @@
 
   .prices {
     display: flex;
-    margin-top: 46px;
+    margin: 50px 0;
 
   }
 
   .prices-list {
+    padding: 30px 40px;
     font-family: var(--heading-font-family);
     font-size: 18px;
     font-weight: 400;
@@ -153,16 +157,30 @@
     color: #9DA4BD ;
     list-style: none;
     flex-grow: 1;
+    background-image: linear-gradient(rgba(23, 26, 36, 1), rgba(23, 26, 36, 0.2)) ;
+  }
+
+  .prices-list:hover {
+    background-image: linear-gradient(rgba(9, 11, 19, 1), rgba(9, 11, 19, 0.2));
   }
 
   .prices-list li {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: baseline;
+    margin-bottom: 20px;
   }
 
   .prices-list li .prices-dash {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto ;
     height: 1px;
     background: #9DA4BD;
+  }
+
+  .prices-list li .prices-dash {
+    margin-left: 6px;
+    margin-right: 6px;
   }
 
